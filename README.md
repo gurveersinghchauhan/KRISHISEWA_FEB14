@@ -1,14 +1,13 @@
 ## SETUP
 
 pip install virtualenv
-python -m venv myenv
 
-.\myenv\bin\activate
+python -m venv myenv
 
 pip install -r requirements.txt
 
-## Setup complete
+## Running the application 
 
-For running the web application :
+.\myenv\bin\activate
 
 python manage.py runserver
